@@ -31,7 +31,7 @@ public class Users {
 @UpdateTimestamp
     @Column(name = "updated_at")
     private LocalDateTime updatedAt;
-
-    @OneToMany(mappedBy = "user",orphanRemoval = true)
-    private List<Bookings> bookings;
+//
+//    @OneToMany(mappedBy = "user",orphanRemoval = true)
+//    private List<Bookings> bookings;
 }
